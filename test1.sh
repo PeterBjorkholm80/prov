@@ -1,7 +1,7 @@
-echo "Running tests..."
+echo "Running test..."
 echo
 
-output=$(./main.out)
+output=$(./a.out)
 
 # Read the values into an array
 readarray -t values <<< "$output"
