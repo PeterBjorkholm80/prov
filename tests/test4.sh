@@ -1,7 +1,7 @@
 echo "Running test4..."
 echo
 
-output1=$(echo -e "universe" | ./a.out)
+output1=$(echo -e "universe" | ./tests/a.out)
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"

@@ -1,7 +1,7 @@
 echo "Running test5..."
 echo
 
-output=$(echo -e "13" | ./a.out)
+output=$(echo -e "13" | ./tests/a.out)
 
 # Read the values into an array
 readarray -t values <<< "$output"

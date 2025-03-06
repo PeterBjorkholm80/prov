@@ -1,7 +1,7 @@
 echo "Running test7..."
 echo
 
-output=$(echo -e "98.5 1.82" | ./a.out)
+output=$(echo -e "98.5 1.82" | ./tests/a.out)
 
 
 if [ $? -eq 0 ] ; then
